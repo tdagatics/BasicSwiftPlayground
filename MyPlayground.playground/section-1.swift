@@ -30,3 +30,17 @@ func printHarrysMovieTitle(name: String = "the Sorcerer's Stone") {
 }
 
 printHarrysMovieTitle(name: "the Sorcerer's Stone")
+
+func hermioneGrangerFanClub(name: String = "the Hermione Granger Fan Club") -> (starRating: Int, title: String) {
+    let ratingStars = 10
+    let title = "We all want to join " + name
+    return (ratingStars, title)
+}
+
+let movie = hermioneGrangerFanClub()
+println("\(movie.title); it got \(movie.starRating) stars. No surprise!")
+
+
+
+
+
