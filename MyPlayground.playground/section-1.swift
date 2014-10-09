@@ -18,3 +18,15 @@ var streetname = "Privet Drive"
 let uppercaseStreetName = streetname.uppercaseString
 let familyDescription = "Terrible"
 let fullSentence = "HARRY POTTER LIVES ON \(a + b) \(uppercaseStreetName) WITH HIS \(familyDescription) FAMILY."
+
+var badGuys = ["Draco", "Severus", "Sirius"]
+
+for diagonAlleyShopNumber in 100...200 {
+    println("I heard you can get some pretty sweet wands at \(diagonAlleyShopNumber) Diagon Alley")
+}
+
+func printHarrysMovieTitle(name: String = "the Sorcerer's Stone") {
+    println("Harry Potter and \(name)")
+}
+
+printHarrysMovieTitle(name: "the Sorcerer's Stone")
